@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+/* Superior e os Menus */
+
+body
+{
+    max-width: 1200px;
+    background-color: rgba(252, 224, 252, 0.534);
+}
+
+#primo img
+{
+    width: 1520px;
+    height: 130px;
+    margin: auto;
+    left: 2px;
+}
+
+#primo h1
+{
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    font-style: oblique;
+    font-family: 'Almendra Display';
+    color: rgb(123, 50, 192);
+    font-size: 60px;
+    left: 32%;
+    top: -50px;
+}
+
+#primo p
+{
+    display: inline-block;
+    position: absolute;
+    font-style: oblique;
+    font-weight: 900;
+    font-family: "Almendra Display";
+    color: rgb(70, 4, 133);
+    font-size: 17px;
+    left: 46%;
+    top: 42px;
+}
+
+    /* Menus */
+
+#primo ul
+{
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu
+{
+    display: block;
+    position: relative;
+    float: left;
+    padding: 5px 15px;
+    font-family: 'Dancing Script';
+    font-size: 1.8em;
+    top: -57px;
+    left: 47%;
+}
+
+.menu a
+{
+    text-decoration: none;
+    color: rgb(70, 4, 133);
+    font-weight: 700;
+}
+
+.menu a:hover
+{
+    color: violet;
+}
+    /* Fim menus */ 
+/* Fim Superior e menus */
+
+/* Banner 1 */ 
+
+#banner
+{
+    width: 1520px;
+    height: 350px;
+    position: relative;
+    margin: -65px 0px;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+/* Parte final do portal 
+
+.final
+{
+    background-color: black;
+    color: azure;
+    margin-top: -30px;
+}
+
+.final h3
+{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.4em;
+    padding: 0px;
+}
+
+.final p
+{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.4em;
+    margin-top: -40px;
+}
+
+.final h5
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    text-align: center;
+}   
+
+.final td
+{
+
+    padding: 0px 170px;
+}
+
+.final li
+{
+    font-size: 16px;
+    padding: 5px;
+    margin: 0px -50px;
+    list-style: none;
+    color: azure;
+    text-align: left;
+   
+}
+
+.final li a
+{
+    text-decoration: none;
+    color: azure;
+    background: black;
+}
+
+.final li a:hover
+{
+    background-color: azure;
+    color: black;
+}
+/* Fim da parte final do site 
+
+/* Rodapé 
+
+#msm
+{
+    display: block;
+    padding-left: 20%;
+    margin-left: -20px;
+    margin-top: 30px;
+    
+
+}
+.rod
+{
+    
+    text-align: center;
+    padding-top: -15px;
+}
+
+#end
+{
+    display: block;
+    padding-left: 0%;
+    margin-right: 50%;
+}
+
+#end2
+{
+    display: inline-block;
+    margin-left: 910px;
+    margin-top: -25px;
+}
+
+.socicon
+{
+    display: block;
+    float: left;
+    padding: 0px 5px;
+}
+
+/* fim rodapé */ 
