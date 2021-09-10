@@ -5,7 +5,7 @@
 body
 {
     max-width: 1200px;
-    background-color: rgba(252, 224, 252, 0.534);
+ 
 }
 
 #primo img
@@ -77,16 +77,48 @@ body
     /* Fim menus */ 
 /* Fim Superior e menus */
 
-/* Banner 1 */ 
+/* Corpo principal do site */
 
-#banner
+.secon
 {
-    width: 1520px;
-    height: 350px;
-    position: relative;
-    margin: -65px 0px;
-    z-index: -1;
+    width: 100%;
+    margin-top: -20px;
 }
+
+aside img
+{
+    display: inline;
+    position: relative;
+    margin: 5px 0px;
+    left: 24%;
+}
+
+aside p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: underline;
+    display: inline;
+    position: absolute;
+    left: 73%;
+    margin-top: 380px;
+}
+
+.txt
+{
+    font-family: 'Dancing Script';
+    font-size: 1.7em;
+    text-indent: 5%;
+    color:rgb(70, 4, 133);
+    width: 49%;
+    display: block;
+    position: absolute;
+    margin: -375px 65px;
+    padding-left: 2%;   
+    border-left: violet solid;
+}
+
 
 
 
