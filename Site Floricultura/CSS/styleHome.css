@@ -4,13 +4,14 @@
 
 body
 {
-    max-width: 1200px;
+    max-width: 1366;
+    max-height: 768;
  
 }
 
 #primo img
 {
-    width: 1520px;
+    width: 1500px;
     height: 130px;
     margin: auto;
     left: 2px;
@@ -56,11 +57,11 @@ body
     display: block;
     position: relative;
     float: left;
-    padding: 5px 15px;
+    padding: 10px 20px;
     font-family: 'Dancing Script';
-    font-size: 1.8em;
+    font-size: 1.7em;
     top: -57px;
-    left: 47%;
+    left: 37%;
 }
 
 .menu a
@@ -89,8 +90,9 @@ aside img
 {
     display: inline;
     position: relative;
-    margin: 5px 0px;
+    margin: 0px;
     left: 24%;
+    
 }
 
 aside p
@@ -101,8 +103,9 @@ aside p
     text-decoration: underline;
     display: inline;
     position: absolute;
-    left: 73%;
-    margin-top: 380px;
+    left: 79.8%;
+    margin-top: 376px;
+    
 }
 
 .txt
@@ -119,22 +122,78 @@ aside p
     border-left: violet solid;
 }
 
+    /* Menu de Projetos */
+
+.menu2 table
+{
+    background-color: #f26a8c0c;
+    width: 1500px;
+}
+
+.menu2 h2
+{
+    text-align: center;
+    font-family: 'Dancing Script';
+    text-decoration: overline;
+    font-size: 4.2em;
+    color:rgb(70, 4, 133);
+    padding: 75px 0px;
+
+}
+
+.menu2 li
+{
+    display: block;
+    float: left;
+    font-family: 'Dancing Script';
+    text-decoration: none;
+    padding: 0px 50px
+}
+
+.menu2 li img
+{
+    width: 250px;
+    height: 250px;
+    border: 5px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+.menu2 li img:hover
+{
+    transform: scale(1.2);
+}
+
+.menu2 li p
+{
+   
+    text-align: center;
+    color: rgb(70, 4, 133);
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-top: 5px;
+}
+
+.menu2 li a
+{
+    text-decoration: none;
+}
+
+.menu2 li p:hover
+{
+    color: rgb(245, 92, 245);
+}
+
+/* Fim do Corpo Principal do site */
 
 
 
-
-
-
-
-
-
-/* Parte final do portal 
+/* Parte final do portal */
 
 .final
 {
-    background-color: black;
+    background-color:rgb(12, 1, 22);
     color: azure;
-    margin-top: -30px;
+    margin-top: 10%;
 }
 
 .final h3
@@ -142,7 +201,6 @@ aside p
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2.4em;
-    padding: 0px;
 }
 
 .final p
@@ -150,7 +208,7 @@ aside p
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3.4em;
-    margin-top: -40px;
+    margin: -50px;
 }
 
 .final h5
@@ -168,7 +226,7 @@ aside p
 
 .final li
 {
-    font-size: 16px;
+    font-size: 18px;
     padding: 5px;
     margin: 0px -50px;
     list-style: none;
@@ -181,7 +239,7 @@ aside p
 {
     text-decoration: none;
     color: azure;
-    background: black;
+    background: rgb(12, 1, 22);;
 }
 
 .final li a:hover
@@ -189,45 +247,47 @@ aside p
     background-color: azure;
     color: black;
 }
-/* Fim da parte final do site 
+/* Fim da parte final do site */
 
-/* Rodapé 
 
-#msm
+
+/* Rodapé */
+
+
+
+
+h4
 {
+   
     display: block;
-    padding-left: 20%;
-    margin-left: -20px;
-    margin-top: 30px;
-    
-
-}
-.rod
-{
-    
+    position: relative;
+    font-size: 1.2em;
     text-align: center;
-    padding-top: -15px;
+    margin: 25px -150px
+
 }
 
-#end
+#rp
 {
+    
+    font-size: 14px;
     display: block;
-    padding-left: 0%;
-    margin-right: 50%;
+    position: relative;
+    margin: -15px -60px;
 }
 
-#end2
-{
-    display: inline-block;
-    margin-left: 910px;
-    margin-top: -25px;
-}
+#social ul, #social ul li
 
-.socicon
 {
+
     display: block;
-    float: left;
-    padding: 0px 5px;
+    position: relative;
+    padding: 0px 50px;
+}
+
+#social a:hover
+{
+    background-color: transparent;
 }
 
 /* fim rodapé */ 
