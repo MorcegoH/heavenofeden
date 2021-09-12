@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Um lugar que compartilha beleza e via com você através das flores.">
-    <meta name="keywords" content="Flores, vida, alegria, harmonia, beleza, leveza, cores, delicadeza, lindo, puro, tranquilidade, sonhos, amor, pefeição, heaven, paraíso, eden, jardim, vasos, flora, plantas, nascimentos, renovação, ambiente, aparência, respeito, luto, lembrança, despedida, glamour, paz, descanso, comemoração, alegria, alegre, pureza, perfume, delicadeza, renascimento, sorriso, esperança, onírico, sensação, conforto, repouso, suavidez, suave, delicado, amoroso...">
+    <meta name="keywords" content="flores, vida, alegria, harmonia, beleza, leveza, cores, delicadeza, lindo, puro, tranquilidade, sonhos, amor, pefeição, ideias, projetos, heaven, paraíso, eden, jardim, vasos, flora, plantas, nascimentos, renovação...">
 
 
     <title>Heven of Eden</title>
@@ -13,6 +13,9 @@
     <!-- Links vinculados -->
     <link rel="shortcut icon" href="imagens/home/icons/iconsite.png">
     <link rel="stylesheet" type="text/css" href="CSS/styleHome.css">
+    <link rel="stylesheet" type="text/css" href="CSS/casa.css">
+    <link rel="stylesheet" type="text/css" href="CSS/jardim.css">
+
     <style>@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');</style>
     <style>@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&display=swap');</style>
 
@@ -20,7 +23,7 @@
 </head>
  
 <body>
-    <div id="primo">          <!-- Topo -->
+    <div id="primo">   <!--Padrão Home, não editar-->       <!-- Topo --> 
         <header>
 
         <img src="imagens\home\faixa.JPG"alt="Fundo Menu">
@@ -44,59 +47,46 @@
                 <li class="menu">
                     <a href="immemorian.html">IN MEMORIAN</a>
                 </li>
+                <li class="menu">
+                    <a href="index.html">HOME</a>
+                </li>
             </ul>
         </nav>
         </header> 
     </div>
 
-    <div class="secon"> <!--Corpo do site -->
-        <aside>
-            <img src="imagens/home/img1.jpg" alt="Galhos de Cerejeira">
+    <div class="sec_jardim"> <!--Corpo do site -->
+        <!-- Frase da epígrafe: "Quando as palavras fogem, as flores falam." - autor: Bruce W. Currie -->
+    
 
-            <p>Imagem adquirida em Pixabay | Atribuição não requirida</p>
-        </aside>
+    <div class="formulario"> <!--Formulario para solicitar um contato -->
+       <form>
+              <!-- <legend>Formulario</legend> -->
+              <p >
+                  <label for="cnome"> Nome* </label> <br>
+                  <input type="text" name="nome" id="cnome" size="30" maxlength="30" required>
+              </p>
+              <p >
+                  <label for="cmail"> E-mail* </label> <br>
+                  <input type="email" name="mail" id="cmail" size="30" maxlength="30" required>
+              </p>
+              <p >
+                  <label for="cassunto"> Assunto* </label> <br>
+                  <input type="text" name="assunto" id="cassunto" size="30" maxlength="30" required>
+              </p>
 
-        <div class="txt">
-            <p>A nossa floricultura nasceu com a ideia de ir além de simplesmente vender flores em vasos, ou buquês em datas festivas.
-            Queremos levar para você e todos os nossos clientes, o máximo que a decoração viva pode proporcionar.</p> 
-            <p>Queremos trazer para cada momento, cada ambiente, cada lembrança especial de sua vida, um plano de fundo marcante com o verdadeiro esplendor das flores.
-            </p>
-            <p>Confira algumas de nossas ideias, cores e solicite um projeto para você.</p>
-        </div>
-
-        <div class="menu2">   <!-- Segundo Menu Para Acesso aos Projetos -->
-            <table>
-                <tr>
-                    <td>
-                            <h2> Nossos Projetos </h2>
-
-                            <nav>
-                                <ul> <!-- Usar 300x300 nas imagens no CSS-->
-                                    <li>
-                                        <a href="casa.html" target="_blank"><img src="imagens/home/icons/Casa.JPG" alt="Alegria e Harmonia dentro de casa"></a>
-                                        <a href="casa.html"><p>CASA</p></a>
-                                    </li>
-                                    <li>
-                                        <a href="jardim.html" target="_blank"><img src="imagens/home/icons/jardim.JPG" alt="Leveza e Cores nos jardins"></a>
-                                        <a href="jardim.html"><p>JARDIM</p></a>
-                                    </li>
-                                    <li>
-                                        <a href="festa.html" target="_blank"><img src="imagens/home/icons/festas.jpg" alt="Sonhos e Renovações nas festas"></a>
-                                        <a href="festa.html"><p>FESTA</p></a>
-                                    </li>
-                                    <li>
-                                        <a href="funebre.html" target="_blank"><img src="imagens/home/icons/luto.jpg" alt="Tranquilidade e Pureza"></a>
-                                        <a href="funebre.html"><p>IN MEMORIAN</p></a>
-                                    </li>
-                                </ul>
-                            </nav>
-                    </td>
-                </tr>
-            </table>
-        </div>
+                  <p id="sms">
+                      <label for="cmsg">Mensagem*</label>
+                      <p>
+                          <textarea name="msg" id="cmsg" cols="75" rows="7"></textarea>
+                      </p>
+                  </p>
+           
+                <input type="submit" name="enviar" class="btn">
+       </form>
     </div>
 
-
+    <!-- Padrão da Home, não mexer! -->
 <div class="final">      <!--Parte final e links importantes -->
     <table class="final">
         <h3>Telefone para contato</h3>
