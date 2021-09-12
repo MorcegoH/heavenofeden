@@ -136,9 +136,9 @@ aside p
     font-family: 'Dancing Script';
     text-decoration: overline;
     font-size: 4.2em;
-    color:rgb(70, 4, 133);
+    color: rgb(123, 50, 192);
+    text-shadow: 1px 1px 3px violet;
     padding: 75px 0px;
-
 }
 
 .menu2 li
@@ -155,7 +155,7 @@ aside p
     width: 250px;
     height: 250px;
     border: 5px solid white;
-    box-shadow: 1px 1px 4px black;
+    box-shadow: 1px 1px 4px violet;
 }
 
 .menu2 li img:hover
@@ -252,8 +252,6 @@ aside p
 
 
 /* Rodapé */
-
-
 
 
 h4
