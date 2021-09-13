@@ -90,6 +90,17 @@ form
     margin-bottom: -150px;
 }
 
+form h2
+{
+    text-align: center;
+    text-shadow: 1px 1px 3px violet;
+    font-family: 'Dancing Script';
+    color:rgb(123, 50, 192);
+    font-size: 3.2em;
+    font-style: italic;
+    position: relative;
+    margin-top: -50px;
+}
 form p
 {
     font-family: 'Dancing Script';
