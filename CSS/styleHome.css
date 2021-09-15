@@ -2,15 +2,15 @@
 
 /* Superior e os Menus */
 
+body
+{
+    max-width: 100%;
  
-body 
-{ 
-  width: 100%;
 }
 
 #primo img
 {
-    width: 100%;
+    width: 1500px;
     height: 130px;
     margin: auto;
     left: 2px;
@@ -102,7 +102,7 @@ aside p
     text-decoration: underline;
     display: inline;
     position: absolute;
-    left: 77%;
+    left: 79.8%;
     margin-top: 376px;
     
 }
@@ -126,7 +126,7 @@ aside p
 .menu2 table
 {
     background-color: #f26a8c0c;
-    width: 100%;
+    width: 1500px;
 }
 
 .menu2 h2

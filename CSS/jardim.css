@@ -1,2 +1,28 @@
 @charset "UTF-8";
 
+
+.vd
+{
+    margin-top: -70px;
+}
+
+.epi
+{
+   
+    text-align: left;
+    font-family: 'Dancing Script';
+    font-size: 4.2em;
+    color: rgb(123, 50, 192);
+    text-shadow: 1px 1px 3px violet;
+}
+
+#epi2
+{
+    text-align: left;
+    font-family: 'Dancing Script';
+    font-family: 1.0em;
+    color: rgb(123, 50, 192);
+    text-shadow: 1px 1px 3px violet;
+    margin-top: -70px;
+    margin-left: 930px;
+}
