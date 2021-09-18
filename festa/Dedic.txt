@@ -1,6 +1,0 @@
-f1 - Photo by <a href="https://unsplash.com/@carolinehdz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Caroline Hernandez</a> on <a href="https://unsplash.com/s/photos/flowers-in-party?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-f2 - Photo by <a href="https://unsplash.com/@brunocervera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">BRUNO EMMANUELLE</a> on <a href="https://unsplash.com/s/photos/flowers-in-party?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-f3 - Photo by <a href="https://unsplash.com/@evelinafriman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Evelina Friman</a> on <a href="https://unsplash.com/s/photos/flowers-in-party?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-f4 - Foto de Tara Winstead no Pexels
-f5 - Foto de Terje Sollie no Pexels
-f6 - Foto de Joel Paim no Pexels  
