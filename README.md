@@ -48,8 +48,16 @@
     </a>
 </p>
       
-# heavenofeden
-Mini Projeto Fictício / Estudantil HTML5 e CSS3 Senac Tatuapé
-Aluno: Heder Santos - Curso Técnico em T.I 
-
+# Site da Floricultura
+Conteúdo sobre decoração de ambientes com flores.
+Mini Projeto Fictício / Estudantil HTML5 e CSS3 - Curso Técnico em T.I Senac Tatuapé
+## Autor
+Heder Santos
+## Construído com
+* HTML5
+* CSS3
+* JS - através da ferramenta WOW Slider
+* jQuery - através da ferramenta WOW Slider
+## Licença
+Este projeto está licenciado sob a licença MIT - Consulte o arquivo LICENSE.md para detalhes.
 
