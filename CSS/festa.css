@@ -1,8 +1,3 @@
-@charset "UTF-8";
-
-
-/* Menus */
-
 body
 {
     max-width: 100%;
@@ -11,10 +6,11 @@ body
 
 #primo img
 {
-    width: 1500px;
+    width: 100%;
     height: 130px;
     margin: auto;
-    left: 2px;
+    left: 5px;
+ 
 }
 
 #primo h1
@@ -27,7 +23,7 @@ body
     font-family: 'Almendra Display';
     color: rgb(123, 50, 192);
     font-size: 60px;
-    left: 32%;
+    left: 35%;
     top: -50px;
 }
 
@@ -61,7 +57,7 @@ body
     font-family: 'Dancing Script';
     font-size: 1.7em;
     top: -57px;
-    left: 37%;
+    left: 30%;
 }
 
 .menu a
@@ -143,8 +139,14 @@ input, textarea
     border-style: groove;
     box-shadow: 2px 2px 5px violet;
     color:black;
+    border-radius: 20px;
 }
 
+textarea
+{
+    color: rgb(114, 8, 214);
+    font-weight: 900;
+}
 
 #cnome, #cmail, #cassunto
 {
@@ -163,10 +165,9 @@ input, textarea
 {
     display: inline-block;
     position: absolute;
-    left: 600px;
+    left: 550px;
     margin-top: -250px;
     border-style: groove;
-    border-radius: 20px;
     box-shadow: 2px 2px 5px violet;
 }
 
@@ -181,8 +182,8 @@ input, textarea
     border-radius: 50px;
     border-color: rgb(70, 4, 133);
     position: absolute;
-    margin-left: 625px;
-    margin-top: -40px;
+    margin-left: 540px;
+    margin-top: -30px;
 }
 
 .btn:hover
@@ -200,6 +201,8 @@ input, textarea
     background-color:rgb(12, 1, 22);
     color: azure;
     margin-top: 10%;
+    max-width: 100%;
+}
 }
 
 .final h3
@@ -227,14 +230,15 @@ input, textarea
 .final td
 {
 
-    padding: 0px 170px;
+    padding: 0px 160px;
+    max-width: 100%;
 }
 
 .final li
 {
     font-size: 18px;
     padding: 5px;
-    margin: 0px -50px;
+    margin: 0px -30px;
     list-style: none;
     color: azure;
     text-align: left;
@@ -271,7 +275,16 @@ h4
 
 }
 
-#rp
+#rp1
+{
+    
+    font-size: 14px;
+    display: block;
+    position: relative;
+    margin: -15px -60px;
+}
+
+#rp2
 {
     
     font-size: 14px;

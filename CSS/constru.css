@@ -14,7 +14,6 @@ body
     height: 130px;
     margin: auto;
     left: 5px;
- 
 }
 
 #primo h1
@@ -27,7 +26,7 @@ body
     font-family: 'Almendra Display';
     color: rgb(123, 50, 192);
     font-size: 60px;
-    left: 35%;
+    left: 30%;
     top: -50px;
 }
 
@@ -61,7 +60,7 @@ body
     font-family: 'Dancing Script';
     font-size: 1.7em;
     top: -57px;
-    left: 30%;
+    left: 37%;
 }
 
 .menu a
@@ -80,109 +79,14 @@ body
 
 /* Corpo principal do site */
 
-.secon
+.aviso img
 {
-    width: 100%;
-    margin-top: -20px;
-}
-
-aside img
-{
+    max-width: 99%;
     display: inline;
-    position: relative;
-    margin: 0px;
-    left: 20%;
-    
+    margin-top: -65px;
+    border: 5px solid rgba(238, 130, 238, 0.39);
+    box-shadow: 3px 3px 5px rgb(70, 4, 133);
 }
-
-aside p
-{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 10px;
-    font-weight: 600;
-    text-decoration: underline;
-    display: inline;
-    position: absolute;
-    left: 79.5%;
-    margin-top: 376px;
-    
-}
-
-.txt
-{
-    font-family: 'Dancing Script';
-    font-size: 1.7em;
-    text-indent: 5%;
-    color:rgb(70, 4, 133);
-    width: 49%;
-    display: block;
-    position: absolute;
-    margin: -375px 65px;
-    padding-left: 2%;   
-    border-left: violet solid;
-}
-
-    /* Menu de Projetos */
-
-.menu2 table
-{
-    background-color: #f26a8c0c;
-    width: 100%;
-}
-
-.menu2 h2
-{
-    text-align: center;
-    font-family: 'Dancing Script';
-    text-decoration: overline;
-    font-size: 4.2em;
-    color: rgb(123, 50, 192);
-    text-shadow: 1px 1px 3px violet;
-    padding: 75px 0px;
-}
-
-.menu2 li
-{
-    display: block;
-    float: left;
-    font-family: 'Dancing Script';
-    text-decoration: none;
-    padding: 0px 30px
-}
-
-.menu2 li img
-{
-    width: 250px;
-    height: 250px;
-    border: 5px solid white;
-    box-shadow: 1px 1px 4px violet;
-}
-
-.menu2 li img:hover
-{
-    transform: scale(1.2);
-}
-
-.menu2 li p
-{
-   
-    text-align: center;
-    color: rgb(70, 4, 133);
-    font-weight: 600;
-    font-size: 1.2em;
-    padding-top: 5px;
-}
-
-.menu2 li a
-{
-    text-decoration: none;
-}
-
-.menu2 li p:hover
-{
-    color: rgb(245, 92, 245);
-}
-
 /* Fim do Corpo Principal do site */
 
 
@@ -193,7 +97,7 @@ aside p
 {
     background-color:rgb(12, 1, 22);
     color: azure;
-    margin-top: 10%;
+    margin-top: -2.7%;
     max-width: 100%;
 }
 
@@ -274,7 +178,7 @@ h4
     font-size: 14px;
     display: block;
     position: relative;
-    margin: -15px -10px;
+    margin: -15px -60px;
 }
 
 #rp2

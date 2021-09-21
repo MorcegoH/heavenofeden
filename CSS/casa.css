@@ -4,8 +4,8 @@
 /* banner e frase superior da pagina */
 .sec_casa img
 {
-   width: 1500px;
-   margin-top: -530px;
+    max-width: 100%;
+   margin-top: -420px;
    position: relative;
    z-index: -1;
 }
@@ -13,7 +13,7 @@
 .sec_casa p
 {
     font-family: 'Dancing Script';
-    font-size: 4.0em;
+    font-size: 3.7em;
     color: rgb(123, 50, 192);
     text-shadow: 1px 1px 3px violet;
     display: block;
@@ -49,7 +49,7 @@
     height: 200px;
     display: block;
     float: left;
-    margin: 50px 40px;
+    margin: 50px 20px;
     border: 5px solid white;
     box-shadow: 2px 2px 5px violet;
 }
@@ -65,7 +65,7 @@
     font-size: 4.0em;
     color: rgb(123, 50, 192);
     text-shadow: 1px 1px 3px violet;
-    padding-left: 700px;
+    padding-left: 550px;
 }
 
 /* Fim da config da galeria */
@@ -97,13 +97,22 @@ input, textarea
     border-style: groove;
     box-shadow: 2px 2px 5px violet;
     color:black;
+    border-radius: 20px;
 }
 
+textarea
+{
+    color: rgb(114, 8, 214);
+    font-weight: 900;
+}
 
 #cnome, #cmail, #cassunto
 {
     margin-top: 5px;
     border-radius: 50px;
+    color: rgb(114, 8, 214);
+    font-weight: 900;
+    
 }
 #sms 
 {
@@ -117,7 +126,7 @@ input, textarea
 {
     display: inline-block;
     position: absolute;
-    left: 600px;
+    left: 550px;
     margin-top: -250px;
     border-style: groove;
     border-radius: 20px;
@@ -135,8 +144,8 @@ input, textarea
     border-radius: 50px;
     border-color: rgb(70, 4, 133);
     position: absolute;
-    margin-left: 625px;
-    margin-top: -40px;
+    margin-left: 540px;
+    margin-top: -30px;
 }
 
 .btn:hover
